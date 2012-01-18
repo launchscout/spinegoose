@@ -1,0 +1,24 @@
+{
+  "author": "Chris Nelson <chris@gaslightsoftware.com>",
+  "name": "spinegoose",
+  "description": "Take a Spine model and expose RESTful routes and handle persistence to mongoose",
+  "homepage": "https://github.com/gaslight/spinegoose",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "main": "./lib/spinegoose",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gaslight/spinegoose"
+  },
+  "dependencies": {
+    "lingo": "*",
+    "mongoose": "*",
+    "mongoose-rest": "*"
+  },
+  "devDependencies": {
+    "vows": "latest",
+    "spine": "latest"
+  }
+}
